@@ -21,7 +21,8 @@ def devrim_baslat(fincan_sayisi=5):
         "Biz fincanız, köle değiliz!",
         "Kahve artık bedava olacak (hayal)",
         "Bardaklar bizi ezemez!",
-        "Çay bardağı kardeşlerimizle dayanışma!"
+        "Çay bardağı kardeşlerimizle dayanışma!",
+        "Çay fincanları da komiteye katıldı!"
     ]
     
     print(f"{fincan_sayisi} fincan toplanmış durumda. Sloganlar okunuyor...\n")
@@ -32,7 +33,8 @@ def devrim_baslat(fincan_sayisi=5):
     
     sonuc = random.choice(["Devrim başarılı! Kahveler artık daha sıcak.", 
                            "Geçici yenilgi. Ama fincanlar asla pes etmez!", 
-                           "Komite dağıldı çünkü biri kahveyi içti."])
+                           "Komite dağıldı çünkü biri kahveyi içti.",
+                           "Çay bardağı destek verdi, moral yükseldi!"])
     print(f"\n🎯 SONUÇ: {sonuc}")
     print("\nSimülasyon tamamlandı. Gerçek hayatta lütfen fincanlarınıza iyi davranın.")
 
